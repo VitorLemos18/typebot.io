@@ -7,15 +7,15 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: ENCRYPTION_SECRET
-        value: sua-chave-secreta-aqui
+        value: H+KbL/OFrqbEuDy/1zX8bsPG+spXri3S
       - key: NEXTAUTH_URL
-        value: https://typebot.onrender.com
+        value: https://bot.sitecerto.site
       - key: NEXT_PUBLIC_VIEWER_URL
-        value: https://typebot.onrender.com
+        value: https://bot.sitecerto.site/typebot/serasa
       - key: GITHUB_CLIENT_ID
-        value: sua-client-id
+        value: Ov23liIPdqUG9NxK2CNB
       - key: GITHUB_CLIENT_SECRET
-        value: sua-client-secret
+        value: d886ce7a108e3d5b57465097a2b75f9cce6fcca7
       - key: DATABASE_URL
         value: postgresql://postgres:typebot@typebot-db:5432/typebot
       - key: S3_ACCESS_KEY
